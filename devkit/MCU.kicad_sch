@@ -11739,7 +11739,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "62101021021"
+		(property "manf#" "62201021121"
 			(at 41.91 255.27 0)
 			(effects
 				(font
@@ -11757,7 +11757,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "710-62101021021"
+		(property "mouser#" "710-62201021121"
 			(at 41.91 255.27 0)
 			(effects
 				(font

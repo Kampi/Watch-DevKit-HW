@@ -3406,7 +3406,7 @@
 				)
 			)
 		)
-		(property "manf#" "62101021021"
+		(property "manf#" "62201021121"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3432,7 +3432,7 @@
 				)
 			)
 		)
-		(property "mouser#" "710-62101021021"
+		(property "mouser#" "710-62201021121"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19034,7 +19034,7 @@
 				)
 			)
 		)
-		(path "/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7/6b4b5775-802d-4f65-8ea3-f1ad7a56059c")
+		(path "/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7/c66b6205-994e-4910-84eb-438fc910075c")
 		(sheetname "/Project Architecture/MCU/")
 		(sheetfile "MCU.kicad_sch")
 		(attr smd)
