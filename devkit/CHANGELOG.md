@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Fixed
+
+-   Fix wrong ship mode button (#155)
+
 ## [1.2.0] - 2025-09-07
 
 ### Fixed

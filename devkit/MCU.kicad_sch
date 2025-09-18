@@ -6624,6 +6624,10 @@
 		(uuid "56778ee4-5760-4e8f-816a-4ab361bfc95c")
 	)
 	(no_connect
+		(at 231.14 127)
+		(uuid "7a986722-c1e2-47e9-a664-4acff0ade165")
+	)
+	(no_connect
 		(at 153.67 69.85)
 		(uuid "820aec2e-5616-4955-8f48-f55948718215")
 	)
@@ -6658,15 +6662,6 @@
 	(no_connect
 		(at 54.61 257.81)
 		(uuid "f7da5061-844e-46fc-98fd-8b27ea30729b")
-	)
-	(bus_entry
-		(at 247.65 124.46)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "344015ef-ae36-4f9a-a682-7b4f386b6f2a")
 	)
 	(bus_entry
 		(at 179.07 72.39)
@@ -7054,16 +7049,6 @@
 			(color 194 194 194 1)
 		)
 		(uuid "193570c2-0cbd-4722-80cf-9d98b80f0952")
-	)
-	(bus
-		(pts
-			(xy 247.65 123.19) (xy 247.65 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19b181fc-7fcb-4458-9914-1f9ccba2501f")
 	)
 	(wire
 		(pts
@@ -8621,16 +8606,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 127) (xy 245.11 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83c4ce67-5c52-4268-ad91-c1ccaa639f0b")
-	)
-	(wire
-		(pts
 			(xy 59.69 69.85) (xy 60.96 69.85)
 		)
 		(stroke
@@ -9433,16 +9408,6 @@
 		)
 		(uuid "c401885c-0450-4241-926c-cfd81f16d00c")
 	)
-	(bus
-		(pts
-			(xy 261.62 123.19) (xy 247.65 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5175b0a-ddc0-4590-a6d2-f023314db7d1")
-	)
 	(polyline
 		(pts
 			(xy 13.97 283.21) (xy 77.47 283.21)
@@ -10206,16 +10171,6 @@
 			(justify left bottom)
 		)
 		(uuid "7198bf9c-6b3b-4c57-b425-9d8b40bdb49e")
-	)
-	(label "SW2"
-		(at 240.03 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "74015a1c-b435-4094-aad6-d435b0266515")
 	)
 	(label "SW3"
 		(at 170.18 80.01 0)
@@ -11499,17 +11454,6 @@
 			(justify left)
 		)
 		(uuid "2427ea1c-5a61-4df0-bfbe-1a95711a60b2")
-	)
-	(hierarchical_label "SW[1..4]"
-		(shape input)
-		(at 261.62 123.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2bafa2c6-adef-4eae-93dc-7b0862ce91a3")
 	)
 	(hierarchical_label "MIC-DATA"
 		(shape input)
