@@ -6,6 +6,10 @@
 
 -   Fix wrong ship mode button (#155)
 
+### Changed
+
+-	Change part number for SWD connector to 62201021121 (#157)
+
 ## [1.2.0] - 2025-09-07
 
 ### Fixed
