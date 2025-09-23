@@ -13181,7 +13181,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "RC0404FR-07100KL"
+		(property "manf#" "RC0402FR-07100KL"
 			(at 215.9 185.42 0)
 			(effects
 				(font
@@ -13190,7 +13190,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "603-RC0404FR-07100KL"
+		(property "mouser#" "603-RC0402FR-07100KL"
 			(at 215.9 185.42 0)
 			(effects
 				(font
@@ -17827,7 +17827,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/3/40/1/cr.pdf"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf"
 			(at 331.47 48.26 0)
 			(effects
 				(font
@@ -17854,7 +17854,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf" "Bourns"
+		(property "manf" "YAGEO"
 			(at 331.47 48.26 0)
 			(effects
 				(font
@@ -17863,7 +17863,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "CR0805-J/-000ELF"
+		(property "manf#" "RC0805FR-07100KL"
 			(at 331.47 48.26 0)
 			(effects
 				(font
@@ -17872,7 +17872,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "652-CR0805-J/-000ELF"
+		(property "mouser#" "603-RC0805FR-07100KL"
 			(at 331.47 48.26 0)
 			(effects
 				(font
