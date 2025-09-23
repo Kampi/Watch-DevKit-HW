@@ -679,7 +679,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../cad/PCB.stp",
+      "step": "F:/Drive_Daniel/SynologyDrive/PCB.step",
       "svg": "",
       "vrml": "../cad/ZSWatch.wrl"
     },

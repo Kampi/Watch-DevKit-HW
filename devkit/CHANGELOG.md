@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Added
+
+- 	Add missing pull-ups for I2C lines (#158)
+
 ### Fixed
 
 -   Fix wrong ship mode button (#155)
@@ -9,6 +13,7 @@
 ### Changed
 
 -	Change part number for SWD connector to 62201021121 (#157)
+-	Set pull-up for Flash CS to NA (#158)
 
 ## [1.2.0] - 2025-09-07
 
