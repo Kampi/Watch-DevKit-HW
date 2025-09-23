@@ -4,7 +4,7 @@
 
 ### Added
 
-- 	Add missing pull-ups for I2C lines (#158)
+-   Add missing pull-ups for I2C lines (#158)
 
 ### Fixed
 
