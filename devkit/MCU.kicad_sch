@@ -12050,7 +12050,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ddf61f9-65da-44aa-b366-67ca557a3436")
-		(property "Reference" "#PWR0616"
+		(property "Reference" "#PWR0615"
 			(at 215.9 185.42 0)
 			(effects
 				(font
@@ -12100,7 +12100,7 @@
 		(instances
 			(project "ZSWatch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-					(reference "#PWR0616")
+					(reference "#PWR0615")
 					(unit 1)
 				)
 			)
@@ -12182,7 +12182,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "128328c9-ab3f-4d8d-ad64-8c08c445844e")
-		(property "Reference" "#FLG0605"
+		(property "Reference" "#FLG0604"
 			(at 339.09 45.085 0)
 			(effects
 				(font
@@ -12232,7 +12232,7 @@
 		(instances
 			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-					(reference "#FLG0605")
+					(reference "#FLG0604")
 					(unit 1)
 				)
 			)
@@ -13113,9 +13113,9 @@
 		(at 215.9 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3381be32-e853-4783-aa10-90ead6179a20")
 		(property "Reference" "R612"
@@ -16334,7 +16334,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e3ce399-0f95-417a-b219-70b2a02ff556")
-		(property "Reference" "#FLG0602"
+		(property "Reference" "#FLG0601"
 			(at 60.96 175.895 0)
 			(effects
 				(font
@@ -16384,7 +16384,7 @@
 		(instances
 			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-					(reference "#FLG0602")
+					(reference "#FLG0601")
 					(unit 1)
 				)
 			)
@@ -16465,7 +16465,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aef2a47e-1e0c-457a-b5e0-3da1a2da63fa")
-		(property "Reference" "#FLG0601"
+		(property "Reference" "#FLG0602"
 			(at 67.31 66.675 0)
 			(effects
 				(font
@@ -16515,7 +16515,7 @@
 		(instances
 			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-					(reference "#FLG0601")
+					(reference "#FLG0602")
 					(unit 1)
 				)
 			)
@@ -18115,7 +18115,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d36a608a-c91a-4895-9c34-8d7592ebba81")
-		(property "Reference" "#FLG0604"
+		(property "Reference" "#FLG0605"
 			(at 367.03 47.625 0)
 			(effects
 				(font
@@ -18165,7 +18165,7 @@
 		(instances
 			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-					(reference "#FLG0604")
+					(reference "#FLG0605")
 					(unit 1)
 				)
 			)
@@ -18418,7 +18418,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db2f7561-cbaf-4862-989e-1354640cd169")
-		(property "Reference" "#PWR0615"
+		(property "Reference" "#PWR0616"
 			(at 224.79 86.36 0)
 			(effects
 				(font
@@ -18468,7 +18468,7 @@
 		(instances
 			(project "Dev-Kit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-					(reference "#PWR0615")
+					(reference "#PWR0616")
 					(unit 1)
 				)
 			)

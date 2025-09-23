@@ -5124,7 +5124,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03cfecf6-c11a-4c4d-b5da-a534c194ec1f")
-		(property "Reference" "C404"
+		(property "Reference" "C405"
 			(at 223.52 49.5363 0)
 			(effects
 				(font
@@ -5214,7 +5214,7 @@
 		(instances
 			(project "ZSWatch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
-					(reference "C404")
+					(reference "C405")
 					(unit 1)
 				)
 			)
@@ -5230,7 +5230,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08a40fb5-5a9c-4c49-8b7e-0d8607ce2c3d")
-		(property "Reference" "#PWR0419"
+		(property "Reference" "#PWR0420"
 			(at 222.25 116.84 0)
 			(effects
 				(font
@@ -5316,7 +5316,7 @@
 		(instances
 			(project "ZSWatch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
-					(reference "#PWR0419")
+					(reference "#PWR0420")
 					(unit 1)
 				)
 			)
@@ -5545,7 +5545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10141337-eb0c-40a3-90f0-5efac755f045")
-		(property "Reference" "C405"
+		(property "Reference" "C406"
 			(at 224.79 104.1463 0)
 			(effects
 				(font
@@ -5635,7 +5635,7 @@
 		(instances
 			(project "ZSWatch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
-					(reference "C405")
+					(reference "C406")
 					(unit 1)
 				)
 			)
@@ -6148,7 +6148,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26acfb06-5cc5-4b56-bd13-6fada4843d06")
-		(property "Reference" "C407"
+		(property "Reference" "C408"
 			(at 233.68 86.3663 0)
 			(effects
 				(font
@@ -6238,7 +6238,7 @@
 		(instances
 			(project "ZSWatch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
-					(reference "C407")
+					(reference "C408")
 					(unit 1)
 				)
 			)
@@ -6254,7 +6254,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fc9dede-a09f-4d46-8cd8-b02460952a51")
-		(property "Reference" "#PWR0422"
+		(property "Reference" "#PWR0424"
 			(at 236.22 43.18 0)
 			(effects
 				(font
@@ -6340,7 +6340,7 @@
 		(instances
 			(project "ZSWatch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
-					(reference "#PWR0422")
+					(reference "#PWR0424")
 					(unit 1)
 				)
 			)
@@ -6671,7 +6671,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37d64990-fd16-41ea-9bcd-e76f381a2e25")
-		(property "Reference" "#FLG0403"
+		(property "Reference" "#FLG0404"
 			(at 251.46 113.665 0)
 			(effects
 				(font
@@ -6721,7 +6721,7 @@
 		(instances
 			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
-					(reference "#FLG0403")
+					(reference "#FLG0404")
 					(unit 1)
 				)
 			)
@@ -7386,7 +7386,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e8391d9-dcc1-4cf1-b9be-affad3ad3a4d")
-		(property "Reference" "C408"
+		(property "Reference" "C409"
 			(at 233.68 31.7563 0)
 			(effects
 				(font
@@ -7476,7 +7476,7 @@
 		(instances
 			(project "ZSWatch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
-					(reference "C408")
+					(reference "C409")
 					(unit 1)
 				)
 			)
@@ -7658,7 +7658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6393b6f1-943a-4380-add1-15f47d5aa1b8")
-		(property "Reference" "#PWR0425"
+		(property "Reference" "#PWR0427"
 			(at 251.46 104.14 0)
 			(effects
 				(font
@@ -7708,7 +7708,7 @@
 		(instances
 			(project "Dev-Kit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
-					(reference "#PWR0425")
+					(reference "#PWR0427")
 					(unit 1)
 				)
 			)
@@ -8163,7 +8163,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f8b2bee-6eac-4c51-a67c-10bf2e7a6933")
-		(property "Reference" "#PWR0430"
+		(property "Reference" "#PWR0421"
 			(at 223.52 151.13 0)
 			(effects
 				(font
@@ -8249,7 +8249,7 @@
 		(instances
 			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
-					(reference "#PWR0430")
+					(reference "#PWR0421")
 					(unit 1)
 				)
 			)
@@ -8265,7 +8265,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fb253df-49f4-4244-a620-7c25a7a9c64c")
-		(property "Reference" "#PWR0423"
+		(property "Reference" "#PWR0425"
 			(at 246.38 43.18 0)
 			(effects
 				(font
@@ -8351,7 +8351,7 @@
 		(instances
 			(project "ZSWatch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
-					(reference "#PWR0423")
+					(reference "#PWR0425")
 					(unit 1)
 				)
 			)
@@ -8367,7 +8367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "721dce26-7297-416e-9344-03dc397135cd")
-		(property "Reference" "#FLG0402"
+		(property "Reference" "#FLG0401"
 			(at 214.63 120.015 0)
 			(effects
 				(font
@@ -8417,7 +8417,7 @@
 		(instances
 			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
-					(reference "#FLG0402")
+					(reference "#FLG0401")
 					(unit 1)
 				)
 			)
@@ -8544,7 +8544,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74b316b2-053d-4d0b-90ee-fde78f1a37cc")
-		(property "Reference" "#PWR0428"
+		(property "Reference" "#PWR0430"
 			(at 261.62 151.13 0)
 			(effects
 				(font
@@ -8630,7 +8630,7 @@
 		(instances
 			(project "Dev-Kit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
-					(reference "#PWR0428")
+					(reference "#PWR0430")
 					(unit 1)
 				)
 			)
@@ -9165,7 +9165,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87837e07-75c0-477c-8f09-a572e9459c52")
-		(property "Reference" "C406"
+		(property "Reference" "C407"
 			(at 223.52 31.7563 0)
 			(effects
 				(font
@@ -9255,7 +9255,7 @@
 		(instances
 			(project "ZSWatch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
-					(reference "C406")
+					(reference "C407")
 					(unit 1)
 				)
 			)
@@ -9271,7 +9271,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e731834-c2b4-4dff-8142-a6481355528d")
-		(property "Reference" "#FLG0401"
+		(property "Reference" "#FLG0405"
 			(at 262.89 41.275 0)
 			(effects
 				(font
@@ -9321,7 +9321,7 @@
 		(instances
 			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
-					(reference "#FLG0401")
+					(reference "#FLG0405")
 					(unit 1)
 				)
 			)
@@ -9438,7 +9438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "900cbf8b-c75a-4ea9-97d3-9326b444d89b")
-		(property "Reference" "#FLG0405"
+		(property "Reference" "#FLG0402"
 			(at 223.52 141.605 0)
 			(effects
 				(font
@@ -9488,7 +9488,7 @@
 		(instances
 			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
-					(reference "#FLG0405")
+					(reference "#FLG0402")
 					(unit 1)
 				)
 			)
@@ -9939,7 +9939,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "942324c1-9d09-4760-9048-2d0f9ebf9382")
-		(property "Reference" "#FLG0404"
+		(property "Reference" "#FLG0403"
 			(at 247.65 75.565 0)
 			(effects
 				(font
@@ -9989,7 +9989,7 @@
 		(instances
 			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
-					(reference "#FLG0404")
+					(reference "#FLG0403")
 					(unit 1)
 				)
 			)
@@ -10005,7 +10005,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "964128f7-2884-4103-a31d-7d6e3ae93f79")
-		(property "Reference" "#PWR0426"
+		(property "Reference" "#PWR0428"
 			(at 254 137.16 0)
 			(effects
 				(font
@@ -10055,7 +10055,7 @@
 		(instances
 			(project "Dev-Kit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
-					(reference "#PWR0426")
+					(reference "#PWR0428")
 					(unit 1)
 				)
 			)
@@ -10070,7 +10070,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "96fd9e2c-1b02-420c-8309-c48d35316e8d")
-		(property "Reference" "#PWR0429"
+		(property "Reference" "#PWR0418"
 			(at 214.63 151.13 0)
 			(effects
 				(font
@@ -10156,7 +10156,7 @@
 		(instances
 			(project "Watch-DK"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
-					(reference "#PWR0429")
+					(reference "#PWR0418")
 					(unit 1)
 				)
 			)
@@ -10172,7 +10172,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97a39a7f-410b-427f-a0eb-6b7711b2ecfb")
-		(property "Reference" "#PWR0420"
+		(property "Reference" "#PWR0422"
 			(at 226.06 43.18 0)
 			(effects
 				(font
@@ -10258,7 +10258,7 @@
 		(instances
 			(project "ZSWatch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
-					(reference "#PWR0420")
+					(reference "#PWR0422")
 					(unit 1)
 				)
 			)
@@ -10377,7 +10377,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae315889-37b7-4498-b7f5-fa40d2d03e05")
-		(property "Reference" "#PWR0424"
+		(property "Reference" "#PWR0426"
 			(at 251.46 86.36 0)
 			(effects
 				(font
@@ -10427,7 +10427,7 @@
 		(instances
 			(project "ZSWatch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
-					(reference "#PWR0424")
+					(reference "#PWR0426")
 					(unit 1)
 				)
 			)
@@ -10444,7 +10444,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c181b2a2-731d-49c5-ad78-1b56c21a3215")
-		(property "Reference" "TP404"
+		(property "Reference" "TP405"
 			(at 254 104.9019 0)
 			(effects
 				(font
@@ -10531,7 +10531,7 @@
 		(instances
 			(project "ZSWatch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
-					(reference "TP404")
+					(reference "TP405")
 					(unit 1)
 				)
 			)
@@ -10546,7 +10546,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c36d7481-a38c-41ba-b2dc-d8ee78a880b4")
-		(property "Reference" "#PWR0418"
+		(property "Reference" "#PWR0419"
 			(at 220.98 60.96 0)
 			(effects
 				(font
@@ -10632,7 +10632,7 @@
 		(instances
 			(project "ZSWatch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
-					(reference "#PWR0418")
+					(reference "#PWR0419")
 					(unit 1)
 				)
 			)
@@ -10855,7 +10855,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb454cd9-1d9f-4aaf-8b73-a584af2847e2")
-		(property "Reference" "#PWR0427"
+		(property "Reference" "#PWR0429"
 			(at 260.35 137.16 0)
 			(effects
 				(font
@@ -10905,7 +10905,7 @@
 		(instances
 			(project "Dev-Kit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
-					(reference "#PWR0427")
+					(reference "#PWR0429")
 					(unit 1)
 				)
 			)
@@ -11411,7 +11411,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4648c30-036c-40cd-a72a-b1f637c1d4bf")
-		(property "Reference" "C409"
+		(property "Reference" "C410"
 			(at 243.84 31.7563 0)
 			(effects
 				(font
@@ -11501,7 +11501,7 @@
 		(instances
 			(project "ZSWatch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
-					(reference "C409")
+					(reference "C410")
 					(unit 1)
 				)
 			)
@@ -11618,7 +11618,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e6ef5aa0-d237-4c46-b3b5-779c0b0eda24")
-		(property "Reference" "TP405"
+		(property "Reference" "TP403"
 			(at 243.84 24.003 0)
 			(effects
 				(font
@@ -11705,7 +11705,7 @@
 		(instances
 			(project "Dev-Kit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
-					(reference "TP405")
+					(reference "TP403")
 					(unit 1)
 				)
 			)
@@ -11722,7 +11722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e76f71ad-30fe-4f05-84e5-b1433afa37ee")
-		(property "Reference" "C410"
+		(property "Reference" "C404"
 			(at 217.17 132.0863 0)
 			(effects
 				(font
@@ -11812,7 +11812,7 @@
 		(instances
 			(project "Watch-DK"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
-					(reference "C410")
+					(reference "C404")
 					(unit 1)
 				)
 			)
@@ -12000,7 +12000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed9db73e-178a-4d25-afce-e7f726f9fc70")
-		(property "Reference" "TP403"
+		(property "Reference" "TP404"
 			(at 254 87.1219 0)
 			(effects
 				(font
@@ -12087,7 +12087,7 @@
 		(instances
 			(project "ZSWatch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
-					(reference "TP403")
+					(reference "TP404")
 					(unit 1)
 				)
 			)
@@ -12103,7 +12103,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0064dd5-16b3-40db-ba35-7d9ed2955c60")
-		(property "Reference" "#PWR0421"
+		(property "Reference" "#PWR0423"
 			(at 231.14 99.06 0)
 			(effects
 				(font
@@ -12189,7 +12189,7 @@
 		(instances
 			(project "ZSWatch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
-					(reference "#PWR0421")
+					(reference "#PWR0423")
 					(unit 1)
 				)
 			)
