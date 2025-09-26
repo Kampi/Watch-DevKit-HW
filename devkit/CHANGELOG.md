@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [1.2.1] - 2025-09-26
+
 ### Added
 
 -   Add missing pull-ups for I2C lines (#158)
@@ -12,8 +14,8 @@
 
 ### Changed
 
--	Change part number for SWD connector to 62201021121 (#157)
--	Set pull-up for Flash CS to NA (#158)
+-   Change part number for SWD connector to 62201021121 (#157)
+-   Set pull-up for Flash CS to NA (#158)
 -   Center the mounting holes for the display (#159)
 
 ## [1.2.0] - 2025-09-07
@@ -44,6 +46,8 @@
 
 -   Remove APDS-9306 interrupt (#122)
 
-[Unreleased]: https://github.com/ZSWatch/Watch-DevKit-HW/compare/1.2.0...HEAD
+[Unreleased]: https://github.com/ZSWatch/Watch-DevKit-HW/compare/1.2.1...HEAD
+
+[1.2.1]: https://github.com/ZSWatch/Watch-DevKit-HW/compare/1.2.0...1.2.1
 
 [1.2.0]: https://github.com/ZSWatch/Watch-DevKit-HW/compare/fc3844fb6a647a23e214f3085a47ce2212e0d98a...1.2.0
