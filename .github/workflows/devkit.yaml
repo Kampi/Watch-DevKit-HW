@@ -221,6 +221,16 @@ jobs:
           fi
           kibot -vvvv  --skip-pre erc,drc,draw_fancy_stackup -c kibot_yaml/kibot_main.yaml -d ${{ env.kibot_output_path }}/${{ env.kibot_output_dir }}-${{ env.kibot_variant }} -g variant=${{ env.kibot_variant }} -E KICOST_CONFIG=kibot_yaml/kicost_config_local.yaml xlsx_bom 2> ../log/kibot_output.log
 
+      - name: Clean up
+        shell: bash
+        run: |
+          rm -rf ${KICAD_LIBRARY}
+          find . -type f -iname \*.log -delete
+          find . -type f -iname \*.ogv -delete
+          find . -type f -iname \*.kicad_pro-bak -delete
+          rm ${{ env.kibot_input_dir }}/kibot_*.kicad_pro
+          rm ${{ env.kibot_input_dir }}/kibot_*.kicad_pcb
+
       - name: Upload artifacts (logs)
         uses: actions/upload-artifact@v4
         if: ${{ always() }}
@@ -241,16 +251,6 @@ jobs:
         with:
           name: CHANGELOG
           path: ${{ env.kibot_input_dir }}/CHANGELOG.md
-
-      - name: Clean up
-        shell: bash
-        run: |
-          rm -rf ${KICAD_LIBRARY}
-          find . -type f -iname \*.log -delete
-          find . -type f -iname \*.ogv -delete
-          find . -type f -iname \*.kicad_pro-bak -delete
-          rm ${{ env.kibot_input_dir }}/kibot_*.kicad_pro
-          rm ${{ env.kibot_input_dir }}/kibot_*.kicad_pcb
 
       - name: Pull latest changes
         shell: bash
