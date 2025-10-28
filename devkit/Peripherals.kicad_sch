@@ -9901,7 +9901,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BMI270"
+		(property "Value" "ThisIsAWrongValue"
 			(at 185.42 92.71 0)
 			(effects
 				(font
