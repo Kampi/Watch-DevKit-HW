@@ -23,7 +23,7 @@
 					)
 				)
 			)
-			(property "Value" "BMI270"
+			(property "Value" "ThisIsAWrongValue"
 				(at 0 0 0)
 				(effects
 					(font
