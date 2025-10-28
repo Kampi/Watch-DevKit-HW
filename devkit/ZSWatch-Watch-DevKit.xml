@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/__w/Watch-DevKit-HW/Watch-DevKit-HW/devkit/ZSWatch-Watch-DevKit.kicad_sch</source>
-    <date>2025-10-16T10:51:03+0000</date>
+    <date>2025-10-28T07:45:00+0000</date>
     <tool>Eeschema 9.0.1+1</tool>
     <textvar name="ASSEMBLY_NOTES"/>
     <textvar name="BOARD_NAME">Watch-DevKit-HW</textvar>
@@ -78,8 +78,8 @@ Changed
 
 -   Center the mounting holes for the display (#159)</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">08-Oct-2025</textvar>
-    <textvar name="RELEASE_DATE_NUM">2025-10-08</textvar>
+    <textvar name="RELEASE_DATE">28-Oct-2025</textvar>
+    <textvar name="RELEASE_DATE_NUM">2025-10-28</textvar>
     <textvar name="RELEASE_TITLE_1.2.0">Version 1.2.0 - 2025-09-07</textvar>
     <textvar name="RELEASE_TITLE_1.2.1">Version 1.2.1 - 2025-09-26</textvar>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
@@ -3628,7 +3628,7 @@ Changed
       <docs>https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi270-ds000.pdf</docs>
       <fields>
         <field name="Reference">IC</field>
-        <field name="Value">BMI270</field>
+        <field name="Value">ThisIsAWrongValue</field>
         <field name="Footprint">Package_LGA_Kampi:Bosch_LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y</field>
         <field name="Datasheet">https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi270-ds000.pdf</field>
         <field name="Description"/>
