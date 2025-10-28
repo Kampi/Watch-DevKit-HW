@@ -1,0 +1,84 @@
+# CodeRabbit-Konfiguration für ein KiCad / KiBot-Projekt
+
+version: 1
+
+project:
+  name: "Hardware-Projekt mit KiCad & KiBot"
+  type: "electronics"
+  description: |
+    Dieses Projekt enthält KiCad-Designs (.kicad_pro, .kicad_sch, .kicad_pcb)
+    sowie KiBot-Konfigurationsdateien (.kibot.yaml) für automatische Builds, DRC/ERC
+    und Export von Fertigungsdaten (Gerber, BOM, Pick&Place).
+
+review:
+  enable: true
+  goals:
+    - Sicherstellen, dass alle KiCad-Dateien versioniert sind (.kicad_sch, .kicad_pcb, .kicad_pro)
+    - Prüfen, ob KiBot-Konfigurationsdateien gültig sind und auf aktuelle KiCad-Versionen abgestimmt sind
+    - Validieren, dass DRC/ERC-Checks im CI bestehen
+    - Empfehlen, relevante Ausgabedateien (Gerber, STEP, PDFs) in `.gitignore` zu halten
+    - Überprüfen, ob Custom-Footprints oder Symbole im Projekt gepflegt werden
+    - Review von KiBot-Pipelines auf sinnvolle Stufen (ERC, DRC, BOM, Fab, Doc)
+
+rules:
+  ignore_patterns:
+    - "*.step"
+    - "*.stp"
+    - "*.3dshapes/"
+    - "*.zip"
+    - "outputs/"
+    - "gerbers/"
+    - "manufacturing/"
+    - ".cache/"
+  file_priorities:
+    high:
+      - "*.kicad_sch"
+      - "*.kicad_pcb"
+      - "*.kibot.yaml"
+      - "kibot.yaml"
+    medium:
+      - "*.net"
+      - "*.bom"
+      - "*.csv"
+    low:
+      - "*.pdf"
+      - "*.svg"
+      - "*.txt"
+
+checks:
+  - name: "ERC / DRC Check"
+    description: "Stelle sicher, dass keine ERC/DRC-Fehler im KiBot-Output sind"
+    command: "grep -q 'ERROR' outputs/report_drc.txt && exit 1 || exit 0"
+    when: "on_push"
+  - name: "KiBot Config Validation"
+    description: "Validiere KiBot-Konfigurationsdateien"
+    command: "kibot --validate kibot.yaml"
+
+ci:
+  enable: true
+  integrations:
+    github_actions: true
+  jobs:
+    - name: "KiBot Build"
+      run: |
+        pip install kikit kibot
+        kibot -c kibot.yaml -e project.kicad_sch -b project.kicad_pcb
+    - name: "DRC/ERC Reports"
+      artifacts:
+        paths:
+          - outputs/report_drc.txt
+          - outputs/report_erc.txt
+
+ai_review:
+  focus_areas:
+    - "Elektronik-Designqualität"
+    - "DRC/ERC-Fehlervermeidung"
+    - "KiBot-Automatisierung"
+    - "Versionsverwaltung der KiCad-Dateien"
+  language: "de"
+
+notifications:
+  on_success: true
+  on_failure: true
+  channels:
+    - github_pr_comment
