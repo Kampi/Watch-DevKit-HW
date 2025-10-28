@@ -1608,7 +1608,7 @@ Changed
       <tstamps>599b6d90-9858-4791-a8b8-094e62b5eaf4</tstamps>
     </comp>
     <comp ref="IC502">
-      <value>BMI270</value>
+      <value>ThisIsAWrongValue</value>
       <footprint>Package_LGA_Kampi:Bosch_LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y</footprint>
       <datasheet>https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi270-ds000.pdf</datasheet>
       <fields>
