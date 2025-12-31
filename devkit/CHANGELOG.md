@@ -2,28 +2,30 @@
 
 ## [Unreleased]
 
+## [1.2.2] - 2025-12-31
+
 ### Added
 
-- 	Add additional header for VSYS (#181)
--	Add additional GPIO to I2S header (#180)
--	Bring back ZSWatch logo (#182)
+-       Add additional header for VSYS (#181)
+-   Add additional GPIO to I2S header (#180)
+-   Bring back ZSWatch logo (#182)
 
 ### Changed
 
 -   Change part number for SWD connector to BD125-10-A-0305-0580-L-B (#164)
--	Replace 0R with closed jumper (#173)
-- 	USB VBUS In Improvements (#184)
-- 	Allow powering RTC from any voltage source (#186)
--	Replace mounting holes with holes with a bigger margin (#187)
+-   Replace 0R with closed jumper (#173)
+-       USB VBUS In Improvements (#184)
+-       Allow powering RTC from any voltage source (#186)
+-   Replace mounting holes with holes with a bigger margin (#187)
 
 ### Fixed
 
 -   Fix wrong resistor for VREF2 pin for the level shifter (#172)
--	Fix wrong silkscreen for Display current (#179)
+-   Fix wrong silkscreen for Display current (#179)
 
 ### Removed
 
--	Remove 0R and 5k1 CC resistors (#183)
+-   Remove 0R and 5k1 CC resistors (#183)
 
 ## [1.2.1] - 2025-09-26
 
@@ -69,7 +71,9 @@
 
 -   Remove APDS-9306 interrupt (#122)
 
-[Unreleased]: https://github.com/ZSWatch/Watch-DevKit-HW/compare/1.2.1...HEAD
+[Unreleased]: https://github.com/ZSWatch/Watch-DevKit-HW/compare/1.2.2...HEAD
+
+[1.2.2]: https://github.com/ZSWatch/Watch-DevKit-HW/compare/1.2.1...1.2.2
 
 [1.2.1]: https://github.com/ZSWatch/Watch-DevKit-HW/compare/1.2.0...1.2.1
 
