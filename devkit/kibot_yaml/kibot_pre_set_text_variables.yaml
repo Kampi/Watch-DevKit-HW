@@ -13,7 +13,7 @@ preflight:
       # command: 'git describe --tags --abbrev=0 || echo ""'
       text: '@REVISION@'
     - variable: 'RELEASE_DATE'
-      command: 'git log -1 --format="%ad" --date="format:%d-%b-%Y"'
+      command: 'git log -1 --format="%ad" --date="format:%Y-%m-%d"'
     - variable: 'RELEASE_DATE_NUM'
       command: 'git log -1 --format="%ad" --date=short'
     - variable: 'GIT_HASH_SCH'
@@ -32,7 +32,7 @@ preflight:
       text: '@COMPANY@'
     - variable: 'DESIGNER'
       text: '@DESIGNER@'
-    - variable: 'VARIANT'
+    - variable: 'PCB_VARIANT'
       text: '%V'
 
     # Changelog
@@ -46,10 +46,15 @@ preflight:
     - variable: '@RELEASE_BODY_VAR@1.2.1'
       command: '@GET_BODY_CMD@ 1.2.1'
 
-    # - variable: '@RELEASE_TITLE_VAR@x.y.z'
-    #   command: '@GET_TITLE_CMD@ x.y.z'
-    # - variable: '@RELEASE_BODY_VAR@x.y.z'
-    #   command: '@GET_BODY_CMD@ x.y.z'
+    - variable: '@RELEASE_TITLE_VAR@1.2.2'
+      command: '@GET_TITLE_CMD@ 1.2.2'
+    - variable: '@RELEASE_BODY_VAR@1.2.2'
+      command: '@GET_BODY_CMD@ 1.2.2'
+
+    - variable: '@RELEASE_TITLE_VAR@1.2.3'
+      command: '@GET_TITLE_CMD@ 1.2.3'
+    - variable: '@RELEASE_BODY_VAR@1.2.3'
+      command: '@GET_BODY_CMD@ 1.2.3'
 
     - variable: '@RELEASE_TITLE_VAR@UNRELEASED'
       command: '@GET_TITLE_CMD@ Unreleased'
